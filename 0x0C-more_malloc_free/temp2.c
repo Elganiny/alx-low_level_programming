@@ -45,12 +45,13 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	return (ptr);
 }
 
-/**
+
+/*
  * array_range - creates an array of integers
  * @min: starting int
  * @max: max int
  * Return: array of integers
- */
+ 
 
 int *array_range(int min, int max)
 {
@@ -66,4 +67,4 @@ int *array_range(int min, int max)
 	for (i = 0; i < len; i++)
 		ptr[i] = min++;
 	return (ptr);
-}
+*/
