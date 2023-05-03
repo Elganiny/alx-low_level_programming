@@ -20,6 +20,6 @@ int main(void)
     add_nodeint_end(&head, 1024);
     print_listint(head);
     free_listint2(&head);
-    printf(%pn, (void *)head);
+    printf("%p\n", (void *)head);
     return (0);
 }
